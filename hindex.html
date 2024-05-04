@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>loja</title>
+  </head>
+  <body>
+    <div class="casa">
+      <a href="https://meudeus122349090.github.io/Calculadora-/"><img width="40" height="40" src="https://img.icons8.com/hatch/64/plus-math.png" alt="plus-math"/></a>
+      <a href="#roupas"><img width="40" height="40" src="https://img.icons8.com/ios/50/shop--v1.png" alt="shop--v1"/></a>
+      <a href="#contato"><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/no-mobile-devices--v2.png" alt="no-mobile-devices--v2"/></a>
+    </div>
+      <h1>roupas abaixo</h1>
+    <section id="home">
+      
+    </section>
+    <h2>saia tipo b</h2>
+    <div class="roupas">
+    <section id="roupas">
+    
+      <img src="ves.jpeg">
+      <p>R$ 35,75</p>
+      <button onclick="compra()">compra</button>
+    </section>
+    </div>
+    <h2>saia tipo c</h2>
+     <div class="roupas">
+    <section id="roupas">
+      
+      <img src="ves2.jpeg">
+      <p>R$ 40,00</p>
+      <button onclick="compra()">compra</button>
+    </section>
+    </div>
+    <h2>saia tipo d</h2>
+     <div class="roupas">
+    <section id="roupas">
+      <img src="ves3.jpeg">
+      <p>R$ 50,00</p>
+      <button onclick="compra()">compra</button>
+    </section>
+    </div>
+    <div class="contato">
+    <section id="contato">
+      <hr>
+      telefone :<strong>8599999999</strong>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </section>
+    </div>
+    <div class="fixo">
+      <strong>nossos termos</strong>
+    </div>
+  
+  </body>
+  <style>
+    body{
+      text-align: center;
+    }
+    .casa{
+      background: #8c8c8c;
+       height:100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border:2px solid black;
+       box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    }
+    .casa a{
+      margin: 30px;
+    }
+    .casa a img{
+      height: 60px;
+      width: 60px;
+    }
+    .roupas{
+      background: #555;
+      display: inline-block;
+      padding: 10px;
+      margin:5px;
+      border-radius:7px;
+      box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    }
+    .roupas img{
+      border-radius: 7px;
+    }
+    .fixo{
+      background: #333;
+      color:#fff;
+      position:fixed;
+      top:750;
+      left:-0.3;
+      height: 100px;
+      width: 100%;
+      font-size: 40px;
+    }
+    p{
+      color:#fff;
+    }
+    button{
+      border-radius: 7px;
+      height: 37px;
+      width: 90px;
+      background: #625;
+      color: #fff;
+      font-size: 1rem;
+    }
+  </style>
+  <script>
+    function compra(){
+      window.confirm("tem certeza que deseja fazer a compra?")
+    }
+  </script>
+</html>
